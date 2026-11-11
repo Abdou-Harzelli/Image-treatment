@@ -173,3 +173,17 @@ Difference from others:
 - vector_index: contains the final FAISS vector index and retrieval metadata.
 - report: contains final validation and summary outputs for preprocessing completion.
 - statistics : contain all data statistics exploration of data after retreiving objects from images with YOLO ENCODER (THRESHOLD 0.25)
+
+
+data/
+├── val2017/
+└── annotations_trainval2017/
+    └── annotations/
+        └── captions_train2017.json
+    coco_rag_data/
+                  all json files , reports , text_embeddings.npy, image_indexx.faiss, text_index.faiss .....ect
+                  image_embdedings/  folder
+                  train2017_Subset/   all knowlegde base images 10100 images actual images
+                  processed_images/
+                  processed_images_batch/
+REST_OF_FOLDERS/
